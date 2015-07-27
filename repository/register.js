@@ -3,12 +3,21 @@ function Register(){
 
   //connect MySQL
   var mysql = require("mysql");
-  var config ={
+  /*var config ={
     host : "localhost",
     user : "root",
     password : "1234",
     database : "srsregister"
+  }*/
+  
+  //connect ClearDB MySQL
+  var config ={
+    host : "us-cdbr-iron-east-02.cleardb.net",
+    user : "b698bcd90bd2cd",
+    password : "43a5294d",
+    database : "ad_407152d31691918"
   }
+    
   var db = "null";
 
   //----------------------------------------------------------------------------
