@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register form</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/style.css">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <form method="post" action="/register_form">
+
+      <h1>ลงทะเบียน</h1>
+        <div class="jumbotron">
+
+
+            <h3>ข้อมูลส่วนตัว</h3>
+            คำนำหน้าชื่อ :
+            <input type="text" id="txt_tname_th" name="txt_tname_th" value="นาย/นาง/นางสาว" />
+            ชื่อ :
+            <input type="text" id="txt_fname_th" name="txt_fname_th" value="" />
+            นามสกุล :
+            <input type="text" id="txt_lname_th" name="txt_lname_th" value="" />
+            <br /><br />
+            Title :
+            <input type="text" id="txt_tname_en" name="txt_tname_en" value="Mr./Ms./Miss." />
+            First Name :
+            <input type="text" id="txt_fname_en" name="txt_fname_en" value="" />
+            Last Name :
+            <input type="text" id="txt_lname_en" name="txt_lname_en" value="" />
+            <br /><br />
+            รหัสประจำตัวประชาชน :
+            <input type="text" id="txt_idcard" name="txt_idcard" value="" />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            เพศ :
+            <input type="radio" name="sex" value="M" checked> ชาย
+            &nbsp
+            <input type="radio" name="sex" value="F"> หญิง
+            <br /><br />
+            ชื่อเล่น :
+            <input type="text" id="txt_nname" name="txt_nname" value="" />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            วัน/เดือน/ปี เกิด :
+            <input type="date" id="bday" name="bday">
+            <br /><br />
+            อีเมล์ :
+            <input type="email" id="email" name="email" />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            เบอร์มือถือ :
+            <input type="tel" id="usrtel" name="usrtel" />
+
+
+        </div>
+      <br /><hr>
+      &copy; Copyright 2015 - Apiwich Sungmuang
+    </form>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
